@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.social-icon svg {
+  width: 19px;
+  height: 19px;
+  fill: currentColor;
+}
+
+.social-icon svg rect,
+.social-icon svg circle:not(.icon-fill) {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.social-icon svg .icon-fill {
+  fill: currentColor;
+}
